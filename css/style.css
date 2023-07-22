@@ -23,12 +23,35 @@ body {
   color: var(--main-cl);
 }
 
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
 .link {
   text-decoration: none;
   color: currentColor;
 }
 .list {
   list-style-type: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: ;
 }
 
 .header-logo {
