@@ -64,10 +64,26 @@ img {
   height: auto;
 }
 
+.container {
+  width: 100%;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+  display: flex;
+}
+
+/* -------------------------- */
+
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-navigation {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -333,12 +349,3 @@ img {
 /* ++++++++++++++++++++++++++ */
 /* components styles */
 /* ++++++++++++++++++++++++++++ */
-
-.container {
-  width: 100%;
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  outline: 2px solid red;
-}
