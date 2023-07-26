@@ -63,8 +63,12 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* .header {
-} */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+}
 
 .header-logo {
   color: var(--accent-cl);
@@ -99,8 +103,6 @@ img {
 }
 .header-address-link {
   color: var(--slate, #434455);
-
-  /* Body */
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
@@ -113,9 +115,17 @@ img {
   color: var(--ocean, #404bbf);
 }
 
-.hero {
+/* .hero {
+} */
+
+.hero-wrap {
   background-color: var(--navyblue, #2e2f42);
+  padding-top: 188px;
+  padding-right: 472px;
+  padding-bottom: 292px;
+  padding-left: 472px;
 }
+
 .hero-title {
   color: var(--white, #fff);
   font-size: 56px;
