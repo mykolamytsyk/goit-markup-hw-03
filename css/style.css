@@ -119,6 +119,7 @@ img {
 }
 .header-menu-list {
   display: flex;
+  gap: 40px;
 }
 
 .header-address {
@@ -140,6 +141,7 @@ img {
 
 .header-address-list {
   display: flex;
+  gap: 40px;
 }
 /* .hero {
 } */
