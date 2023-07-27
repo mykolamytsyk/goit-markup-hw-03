@@ -120,6 +120,8 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-address {
