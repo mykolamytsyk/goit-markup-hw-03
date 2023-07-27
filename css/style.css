@@ -80,6 +80,10 @@ img {
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
+
+.header-container {
+  display: flex;
+}
 .header-navigation {
   display: flex;
   align-items: center;
@@ -112,6 +116,9 @@ img {
 .header-menu-link:focus {
   color: var(--ocean, #404bbf);
 }
+.header-menu-list {
+  display: flex;
+}
 
 .header-address {
   font-style: normal;
@@ -130,6 +137,9 @@ img {
   color: var(--ocean, #404bbf);
 }
 
+.header-address-list {
+  display: flex;
+}
 /* .hero {
 } */
 
