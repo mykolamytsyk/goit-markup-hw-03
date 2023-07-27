@@ -142,16 +142,15 @@ img {
   display: flex;
   gap: 40px;
 }
-.hero {
-  padding: 188px 0 188px;
-}
+/* .hero {
+} */
 
 .hero-wrap {
   background-color: var(--navyblue, #2e2f42);
-  /* padding-top: 188px;
+  padding-top: 188px;
   padding-right: 472px;
   padding-bottom: 292px;
-  padding-left: 472px; */
+  padding-left: 472px;
 }
 
 .hero-title {
