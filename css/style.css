@@ -83,6 +83,8 @@ img {
 
 .header-container {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-navigation {
   display: flex;
@@ -120,8 +122,8 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .header-address {
@@ -144,8 +146,8 @@ img {
 .header-address-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 /* .hero {
 } */
