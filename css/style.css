@@ -71,7 +71,6 @@ img {
   padding-right: 15px;
   margin: 0 auto;
   outline: 2px solid red;
-  display: flex;
 }
 
 /* -------------------------- */
@@ -174,6 +173,12 @@ img {
 
 .peculiarities-item {
 } */
+
+.peculiarities {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .peculiarities-name {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
