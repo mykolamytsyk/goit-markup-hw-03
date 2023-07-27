@@ -211,7 +211,7 @@ img {
   gap: 24px;
 }
 
-.peculiarities-item-first {
+.peculiarities-item :first-child {
   width: calc((100% - 72px) / 4);
 }
 
@@ -233,9 +233,10 @@ img {
 
 /* -----products----------- */
 
-/* .products {
+.products {
+  padding-bottom: 120px;
+}
 
-} */
 .products-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
