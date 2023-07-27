@@ -212,7 +212,7 @@ img {
 }
 
 .peculiarities-item :first-child {
-  flex-basis: calc((100% - 3 * 24px));
+  width: calc((100% - 72px) / 4);
 }
 
 .peculiarities-name {
