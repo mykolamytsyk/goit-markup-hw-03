@@ -109,7 +109,8 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24 0 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link:hover,
@@ -142,8 +143,9 @@ img {
   display: flex;
   gap: 40px;
 }
-/* .hero {
-} */
+.hero {
+  padding: 188px 0 188px;
+}
 
 .hero-wrap {
   background-color: var(--navyblue, #2e2f42);
