@@ -155,6 +155,7 @@ img {
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
   text-align: center;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -166,6 +167,11 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em; /* 0.64px/16 */
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
