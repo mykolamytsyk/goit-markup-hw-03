@@ -192,12 +192,36 @@ img {
   padding-bottom: 120px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.peculiarities-list {
+  display: flex;
+  gap: 24px;
+}
+
+.peculiarities-item-first {
+  width: calc((100% - 72px) / 4);
+}
+
 .peculiarities-name {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .peculiarities-text {
   color: var(--slate, #434455);
