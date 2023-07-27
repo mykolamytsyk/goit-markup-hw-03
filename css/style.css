@@ -144,6 +144,8 @@ img {
 .header-address-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 /* .hero {
 } */
