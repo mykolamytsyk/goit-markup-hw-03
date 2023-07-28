@@ -208,9 +208,6 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
-/* .peculiarities-item :first-child {
-} */
-
 .peculiarities-name {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
