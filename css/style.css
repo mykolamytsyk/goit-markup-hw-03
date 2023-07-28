@@ -285,10 +285,16 @@ img {
 }
 .team-list :first-child {
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item {
   background: var(--white, #fff);
+}
+
+.team-item-first {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-names {
@@ -297,8 +303,9 @@ img {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em; /* 0.4px/20 */
-
   background: var(--white, #fff);
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-professions {
   color: var(--slate, #434455);
@@ -307,6 +314,7 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em; /* 0.32px/16 */
   background: var(--white, #fff);
+  text-align: center;
 }
 
 /* ----footer------- */
