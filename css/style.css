@@ -338,6 +338,9 @@ img {
 
 /*-----------PORTFOLIO-------------------- */
 
+.container-portfolio {
+  display: flex;
+}
 /* .Menu {
 
 }
