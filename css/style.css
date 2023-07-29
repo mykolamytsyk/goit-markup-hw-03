@@ -203,7 +203,7 @@ img {
   gap: 24px;
 }
 
-.peculiarities-list :first-child {
+.peculiarities-item :first-child {
   width: calc((100% - 3 * 24px) / 4);
 }
 
